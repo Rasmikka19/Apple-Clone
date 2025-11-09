@@ -1,16 +1,47 @@
-# React + Vite
+🍎 Apple Website Clone (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A static front-end clone of the Apple India website
+, built using React and Tailwind CSS.
+This project focuses on replicating the UI and layout of Apple’s homepage using a component-based architecture, without any backend functionality.
 
-Currently, two official plugins are available:
+🎯 Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To recreate the Apple website’s design and structure using modern front-end tools and best practices, focusing on clean, reusable, and scalable React components.
 
-## React Compiler
+🧩 Project Structure & Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Nav Component – Replicates the top Apple navigation bar.
 
-## Expanding the ESLint configuration
+OfferBar Component – Displays the promotional/offer announcement section.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hero Component – Showcases the main hero banner section.
+
+Section Component – Represents different content sections similar to Apple’s homepage.
+
+Carousel Component – Contains the Apple TV+ swipeable content area.
+
+Button Component – Reusable, consistently styled buttons across the site.
+
+Footer Component – Footer layout similar to the official Apple website.
+
+🎨 Tech Stack
+
+React – Component-based UI development.
+
+Tailwind CSS – Utility-first styling for fast and responsive design.
+
+Vite / Create React App – Project setup and development environment.
+
+📦 Features
+
+Fully responsive design inspired by Apple’s official website.
+
+Clean component-based structure for easy scalability.
+
+Static UI (no backend or interactive functionality).
+
+Modern design practices using Tailwind’s utility classes.
+
+🚀 Outcome
+
+A visually accurate static clone of the Apple homepage — built purely for learning and practicing React and Tailwind CSS UI development.
